@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body {
+            background: url("https://media.istockphoto.com/id/1349030917/pl/zdj%C4%99cie/biznes-i-finanse-patrz%C4%85c-na-wysokie-budynki-biurowe-w-dzielnicy-finansowej-nowoczesnej.jpg?s=1024x1024&w=is&k=20&c=erdNxhMU5UbYqCOUEDUddRolJqcsCyxl950LvVBdJ4M=") no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            margin:  120px auto;
+            padding: 30px;
+            width: 400px;
+            height: 160px;
+            background: rgba(0, 9, 9, 0.5);
+
+            color: silver;
+            border-radius: 20px;
+        }
+        .business-card img {
+            float: left;
+        }
+        .username, .email, .download-cv {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .username span {
+            border-bottom: 2px solid  red;
+            padding-bottom: 5px;
+        }
+
+        .email {
+            font-size: 16px;
+        }
+
+        .download-cv a {
+            color: red;
+            font-size: 15px;
+            text-decoration: none;
+        }
+        .download-cv a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="business-card">
+            <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="default-user">
+            <p class="username">
+                <span>Daniel Fargo</span>
+            </p>
+            <p class="email">
+                <span>danielfargo@example.com</span>
+            </p>
+            <p class="download-cv">
+                <span>
+                    <a href="#">Download CV</a>
+                </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
